@@ -1,0 +1,291 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+    font-family: 'Lato';
+}
+
+body{
+    background: #F5F8FA;
+}
+
+nav{
+    width: 90%;
+    margin: 0 5% 5% 5%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E0E6EA;
+}
+
+.links{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links span{
+    cursor: pointer;
+    font: 700 14px 'Lato';
+    color: #1D2C3C;
+}
+
+.links #account{
+    border: 2px solid #646E7A;
+    width: 91px;
+    height: 40px;
+    font: 700 14px 'Lato';
+    color: #1D2C3C;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 55%;
+    margin: 0 25%;
+    /* height: 65vh; */
+    border-radius: 2px;
+}
+
+.grid1{
+    background-color: #ffff;
+}
+
+.header{
+    text-shadow: 0 4px 4px 0 #00000040;
+    font: 400 40px 'Lato';
+    color: #1D2C3C;
+    padding: 5% 10%;
+    border-bottom: 2px solid #F5F7FA;
+}
+
+.subContainer1, .subContainer2{
+    padding: 5% 10%;
+}
+
+.subContainer2{
+    border-top: 2px solid #F5F7FA;
+    border-bottom: 2px solid #F5F7FA;
+}
+
+.basicInformation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number, .question{
+    width: 30px;
+    height: 30px;
+    font: 700 16px 'Lato';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #548BC5;
+    color: #548BC5;
+    border-radius: 50%;
+    margin: 0 2% 0 0;
+}
+
+.question{
+    width: 20px;
+    height: 20px;
+}
+
+.infoHeader{
+     color: #1D2C3C;
+     font: 700 18px 'Lato';
+}
+
+.inputContainerGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 0 0 0;
+}
+
+.inputContainer{
+    width: 45%;
+}
+
+.inputContainer label, .inputContainerRow label{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.inputContainer input, .inputContainerRow input{
+    background: #EDEFF2;
+    border: 1px solid #EDEFF2;
+    border-radius: 2px;
+    width: 94%;
+    height: 36px;
+    padding: 0 3%;
+    color: #646E7A;
+    margin: 2% 0 0 0;
+    outline: none;
+}
+
+.inputContainerRow{
+    width: 100%;
+    margin: 5% 0;
+    position: relative;
+}
+
+.cardDetails{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    color: #646E7A;
+    font: 400 14px 'Lato'
+}
+
+.grid1 button{
+    width: 80%;
+    margin: 5% 10%;
+    height: 52px;
+    font: 700 18px 'Lato';
+    border-radius: 5px;
+    border: 1px solid #038E7D;
+    outline: none;
+    background: #038E7D;
+    color: white;
+}
+
+.needHelp{
+    padding: 0 15% 2% 15%;
+    font: 700 14px 'Lato';
+    color: #646E7A;
+    display: flex;
+    align-items: center;
+
+}
+
+.needHelp strong{
+    color: #1D2C3C;
+    display: inline;
+    margin: 0 1% 0 0
+}
+
+.grid2{
+    padding: 15% 15%;
+    color: #ffffff;
+    background-color: #1179BF;
+}
+
+.grid2 header{
+    font: 700 20px 'Lato';
+}
+
+.subAmount{
+    position: relative;
+    margin: 5% 0;
+}
+
+.dollar{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    font: 700 24px 'Lato';
+}
+
+.amountContainer{
+    position: relative;
+}
+
+.amount{
+    font: 300 60px 'Lato';
+    margin: 0 0 0 10%;
+}
+
+.perYear{
+    font: 700 18px 'Lato';
+}
+
+.benefits{
+    font: italic 400 16px 'Lato';
+    margin: 0 0 15% 0;
+    line-height: 24px;
+}
+
+.benefitList{
+    margin: 0 0 10% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.markContainer{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #B9F5FF;
+    color: #B9F5FF;
+    border-radius: 50%;
+    margin: 0 5% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.need{
+    margin: 15% 0 3% 0;
+    font: 400 16px 'Lato';
+}
+
+.agencyPlan{
+    text-decoration: underline #B9F5FF 2px;
+    font: 700 16px 'Lato';
+    margin: 0 0 15% 0;
+}
+
+.dividingLine{
+    width: 100%;
+    height: 0.5px;
+    background-color: #ffffff;
+    margin: 20% 0;
+}
+
+.pusher{
+    font: italic 400 16px 'Lato';
+    line-height: 24px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15% 0 0 0;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5% 0 0;
+}
+
+.profile span{
+    font: 700 16px 'Lato';
+}
+
+.footer{
+    font: 400 14px 'Lato';
+    text-align: center;
+    color: #636B6F;
+    margin: 2% 0;
+    line-height: 17px;
+}
+
+.footer span{
+    color: #31708f;
+}
